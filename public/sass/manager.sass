@@ -1,0 +1,193 @@
+$color: #3699ff
+$color_white: #fff
+$color_gray: #eff1f5
+$color_gray_black: #b5b5c3
+$color_text: #181c32
+
+body
+    background: $color_gray
+    margin: 0
+    padding: 0
+    overflow: hidden
+main
+    height: 100vh
+    overflow: auto
+    padding-left: 300px !important
+header
+    margin-bottom: 0 !important
+    width: 100%
+    max-width: 1290px
+    margin: auto
+    .menu_div
+        display: flex
+        justify-content: space-between
+    .title
+        font-weight: 500!important
+        font-size: 20px
+        span
+            color: $color_gray_black
+            font-size: 16px
+            padding-left: 10px
+    .menu_hed
+        float: right
+        width: 100%
+        max-width: 400px
+        .bl_shar
+            float: right
+            border-radius: 50%
+            width: 40px
+            height: 40px
+            background: $color_white
+            cursor: pointer
+            margin-left: 10px
+            &:hover
+                background: $color
+                path
+                    fill: $color_white
+            img
+                margin: 4px
+            span
+                margin: 8px
+                display: block
+                path
+                    fill: $color
+
+    .bl_tit
+        color: #181c32
+        font-weight: 500
+        font-size: 1.35rem
+#sidebarMenu
+    position: fixed
+    top: 25px
+    bottom: 25px
+    left: 25px
+    z-index: 98
+    width: 265px
+    background-color: $color
+    font-size: 13px!important
+    font-weight: 400
+    border-radius: 0.42rem
+    .aside-brand
+        display: flex
+        -webkit-box-pack: justify
+        -ms-flex-pack: justify
+        justify-content: space-between
+        padding: 10px
+        .aside-toggle
+            opacity: .7
+            color: $color_white
+            cursor: pointer
+            outline: 0!important
+    .bl_tit_min_nav
+        color: $color_white
+        padding-left: 21px
+        font-size: 11px
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: .3px
+        padding: 10px 15px
+    li
+        ul
+            margin-left: 00px
+            a
+                color: $color_white
+                text-decoration: none
+                li
+                    color: $color_white
+                    padding: 10px
+                    &:hover
+                        background-color: $color_white
+                        color: $color
+        .nav-link
+            color: $color_white
+            cursor: pointer
+            &:hover
+                color: $color
+                background-color: $color_white
+
+.cards
+    margin-bottom: 20px
+    width: 100%
+    max-width: 1290px
+    margin: auto
+    .card-body
+        background-color: $color_white
+        -webkit-box-shadow: 0 0 30px 0 #523f690d
+        box-shadow: 0 0 30px 0 #523f690d
+        border: 0
+        border-radius: 0.25rem
+        margin: 20px 0
+        .bl_tit_top
+            display: flex
+            justify-content: space-between
+            padding: 10px
+            button
+                font-size: 14px!important
+            .card-title
+                .card-label
+                    font-size: 16px
+                    span
+                        font-size: 12px
+        .bl_profile
+            width: 100%
+            max-width: 870px
+            margin: 20px auto
+        .bl_top
+            display: flex
+            flex-wrap: wrap-reverse
+            justify-content: space-around
+            border-bottom: 1px solid $color_gray_black
+            padding-bottom: 20px
+            .bl_tit
+                font-weight: 500
+                font-size: 18px
+                a
+                    color: $color_text
+                    text-decoration: none
+                    &:hover
+                        color: $color
+
+        .images_photo
+            width: 100px
+            height: 100px
+            background-position: center center
+            background-size: cover
+            background-image: url('../image/manager/user.png')
+            border-radius: 50%
+            margin-right: 10px
+        .bl_inf.left
+            display: flex
+            width: 40%
+            flex-direction: column
+            align-items: flex-end
+            path
+                fill: $color_white
+        .bl_inf
+            .bl_btn
+                display: flex
+                flex-wrap: wrap-reverse
+                .btn
+                    margin-left: 10px
+            .flex_block
+                display: flex
+                flex-wrap: wrap-reverse
+                padding: 10px 0
+                .progress
+                    width: 200px
+                    margin: 0 10px
+                    height: 6px
+            .bl_title
+            .svg-icon
+                color: $color_gray_black
+                padding-right: 15px
+                svg
+                    color: $color_gray
+                    padding-right: 5px
+        .bl_flex
+            display: flex
+            .bl_info
+                width: 100%
+                max-width: 180px
+                padding: 10px
+
+
